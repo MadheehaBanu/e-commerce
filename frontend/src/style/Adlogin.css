@@ -1,0 +1,537 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 40px 50px;
+  width: 350px;
+  text-align: center;
+}
+
+.lock-icon {
+  font-size: 40px;
+  color: #ff8a00;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: #ff8a00;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  text-align: left;
+  font-size: 12px;
+  color: #ff8a00;
+  font-weight: 600;
+  margin: 10px 0 5px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.input-group .icon {
+  font-size: 16px;
+  margin-right: 8px;
+  color: #888;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff8a00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+.login-btn:hover {
+  background-color: #ff7000;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fff;
+}
+
+.dashboard-container {
+ 
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 230px;
+  background: #180c02;
+  border-right: 1px solid #ffd7b5;
+  
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  text-align: center;
+  color: #ff8a00;
+  margin: 20px 0;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  padding: 12px 20px;
+  margin: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  color:#000000
+}
+
+.menu li:hover,
+.menu li.active {
+  background: #ff8a00;
+  color: rgb(15, 14, 14);
+}
+
+.logout {
+  padding: 15px 20px;
+  border-top: 1px solid #ffd7b5;
+  cursor: pointer;
+  transition: background 0.3s;
+  
+}
+
+.logout:hover {
+  background: #ff8a00;
+  color: white;
+}
+
+/* Main */
+.main-content {
+  flex: 1;
+  padding: 30px 40px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.subtext {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.card {
+  border: 1px solid #ffd7b5;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: left;
+}
+
+.card h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.card h2 {
+  margin: 5px 0 10px;
+}
+
+.card canvas {
+  width: 100%;
+  height: 80px;
+}
+
+/* Bottom Section */
+.bottom-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 15px;
+}
+
+.activity-box,
+.quick-actions {
+  border: 1px solid #ffd7b5;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.quick-actions ul {
+  padding: 0;
+  list-style: none;
+}
+
+.quick-actions li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.quick-actions li:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+  background: #f8fafc;
+}
+
+.table-container {
+  margin-top: 20px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+  padding: 12px 10px;
+  text-align: left;
+}
+
+.product-table th {
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.product-row:hover {
+  background-color: #fff7ed; /* soft orange */
+  transition: 0.2s;
+}
+
+.product-table img {
+  width: 45px;
+  border-radius: 8px;
+}
+.sidebar {
+  width: 230px;
+  background-color: #1e293b;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #f97316;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-item {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #f97316;
+}
+
+.menu-item.active {
+  background-color: #f97316;
+}
+
+.logout {
+  background: transparent;
+  border: none;
+  color: #f97316;
+  cursor: pointer;
+  font-size: 16px;
+}
+/* -------- Layout -------- */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f8fafc;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+/* -------- Header -------- */
+.product-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.add-product-btn {
+  background-color: #f97316;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-product-btn:hover {
+  background-color: #ea580c;
+}
+
+/* -------- Search Bar -------- */
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+}
+
+/* -------- Table -------- */
+.product-table-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.product-image {
+  width: 45px;
+  border-radius: 8px;
+}
+
+.product-row:hover {
+  background-color: #fff7ed; /* light orange hover */
+  transition: background 0.2s ease;
+}
+
+/* -------- Actions -------- */
+.actions {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  color: #f59e0b;
+}
+
+.delete-btn:hover {
+  color: red;
+}/* General layout */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background: #f8fafc;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 230px;
+  background: #1e293b;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 20px;
+  color: #f97316;
+  font-weight: bold;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  background: #f97316;
+}
+
+/* Logout */
+.logout-btn {
+  background: transparent;
+  border: none;
+  color: #f97316;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Table */
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.product-table th, .product-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.product-row:hover {
+  background: #fff7ed;
+  transition: 0.2s;
+}
+
+/* Login */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8fafc;
+}
+
+.login-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.login-box input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.login-box button {
+  background: #f97316;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.sidebar {
+  width: 220px;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.link {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  border-radius: 6px;
+}
+
+.link:hover,
+.link.active {
+  background-color: #f97316;
+  color: white;
+}
+
+.logout {
+  margin-top: 2rem;
+  background-color: #f97316;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+

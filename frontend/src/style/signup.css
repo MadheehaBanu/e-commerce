@@ -1,0 +1,93 @@
+.signup-container {
+  background-color: #fff;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  width: 350px;
+  text-align: center;
+  margin: 100px auto;
+}
+
+.signup-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.error-msg {
+  color: #e74c3c;
+  background: #fadbd8;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #FF7043;
+  box-shadow: 0 0 5px rgba(255,102,0,0.3);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #FF7043;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #FF8A65;
+  color: white;
+  box-shadow: 0 8px 16px rgba(255,102,0,0.3);
+}
+
+.auth-links {
+  text-align: center;
+  margin-top: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.auth-links a {
+  color: #FF7043;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+  margin-left: 6px;
+}
+
+.auth-links a:hover {
+  color: #FF8A65;
+  transform: scale(1.05);
+  text-decoration: underline;
+}
+
+.auth-links span {
+  color: #666;
+  font-weight: 400;
+}

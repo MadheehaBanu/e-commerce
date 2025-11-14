@@ -1,0 +1,108 @@
+.orders-page {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.orders-page h1 {
+  margin-bottom: 30px;
+  color: #2c3e50;
+  font-size: 28px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orders-table th {
+  background: linear-gradient(135deg, #FF7043, #FF8A65);
+  color: white;
+  padding: 15px;
+  text-align: left;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+.orders-table th:first-child {
+  border-radius: 8px 0 0 0;
+}
+
+.orders-table th:last-child {
+  border-radius: 0 8px 0 0;
+}
+
+.orders-table td {
+  padding: 15px;
+  border-bottom: 1px solid #ecf0f1;
+  color: #555;
+}
+
+.orders-table tr:hover {
+  background: #f8f9fa;
+}
+
+.orders-table tr:last-child td {
+  border-bottom: none;
+}
+
+.status {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-transform: capitalize;
+  color: white;
+}
+
+.status.pending {
+  background: #FF7043;
+}
+
+.status.confirmed {
+  background: #FF8A65;
+}
+
+.status.shipped {
+  background: #FFAB91;
+}
+
+.status.delivered {
+  background: #FF6E40;
+}
+
+.status.cancelled {
+  background: #FF5722;
+}
+
+.view-btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #FF7043, #FF8A65);
+  color: white;
+  transition: all 0.3s;
+  box-shadow: 0 3px 8px rgba(255, 102, 0, 0.3);
+}
+
+.view-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(255, 102, 0, 0.4);
+}

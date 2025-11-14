@@ -1,0 +1,78 @@
+========================================
+SHOPHUB COMPLETE SETUP GUIDE
+========================================
+
+STEP 1: Install XAMPP
+----------------------
+1. Download XAMPP from https://www.apachefriends.org/
+2. Install XAMPP (default location: C:\xampp)
+3. Open XAMPP Control Panel
+4. Start "Apache" and "MySQL" services
+
+STEP 2: Setup Database
+----------------------
+1. Make sure MySQL is running in XAMPP
+2. Double-click: SETUP-DATABASE-FRESH.bat
+3. Enter MySQL root password when prompted (default is empty, just press Enter)
+4. Wait for all steps to complete
+
+STEP 3: Start Backend
+----------------------
+1. Double-click: START-BACKEND.bat
+2. Wait for "Server running on port 5000" message
+3. Keep this window open
+
+STEP 4: Start Frontend
+----------------------
+1. Double-click: START-FRONTEND.bat
+2. Wait for browser to open automatically
+3. Frontend will run on http://localhost:3000
+
+STEP 5: Login as Admin
+----------------------
+Default Admin Account:
+- Email: admin@shophub.com
+- Password: admin123
+
+(If admin doesn't exist, register a new account and manually set isAdmin=1 in database)
+
+========================================
+TROUBLESHOOTING
+========================================
+
+Problem: MySQL won't start in XAMPP
+Solution: 
+- Check if port 3306 is already in use
+- Stop any other MySQL services
+- Restart XAMPP
+
+Problem: "Cannot connect to database"
+Solution:
+- Make sure MySQL is running in XAMPP
+- Check backend/.env file has correct credentials:
+  DB_HOST=localhost
+  DB_USER=root
+  DB_PASSWORD=
+  DB_NAME=shophub
+
+Problem: Products not showing
+Solution:
+- Clear browser cache (Ctrl+Shift+Delete)
+- Restart backend server
+- Check backend terminal for errors
+
+========================================
+FEATURES INCLUDED
+========================================
+
+✅ User registration and login
+✅ Admin panel for managing products
+✅ Add/Edit/Delete products with images
+✅ Flash sale system with countdown timer
+✅ Shopping cart functionality
+✅ Order management
+✅ Product categories (Electronics, Fashion, Home & Living, Sports)
+✅ Product search and filters
+✅ Responsive design
+
+========================================
